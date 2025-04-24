@@ -21,10 +21,6 @@ This method ensures that:
 
 A ---*--- B A and B are on opposite diagonals \ / * is the interpolated point on a line between A and B \ / \ / \ / X
 
-vbnet
-Copier
-Modifier
-
 Every pixel or block in the interpolation square is computed from a combination of diagonally aligned values, allowing smooth blending in all four directions. This is especially useful for color maps, terrain blending, and noise gradients.
 
 ### 🧮 Use Cases
